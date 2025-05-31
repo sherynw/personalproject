@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page 2</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="page1.js"></script>
+
+    <style>
+
+ /* text positioning */
+
+        #me {
+            color: black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            position: relative; top: 480px;
+        }
+
+        #poemLine3 {
+            position: absolute; bottom: 2px; left: 200px;
+        }
+
+        #poemLine2 {
+            position: absolute; top: 20px; right: 100px;
+        }
+
+        /* image positioning */
+
+        #userImg {
+            display: flex;
+            justify-content: center;
+            position: relative; top: 1px;
+        }
+
+        .background {
+            position: absolute; top: 0px; left: 0px;
+            z-index: -10;
+        }
+
+        /* button positioning */
+
+        .button {
+            position: absolute; top: 200px; right: 200px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            cursor: pointer;
+            width: 100px;
+            border-radius: 5%;
+
+        }
+
+   
+   
+    </style>
+
+ 
+</head>
+<body>
+
+     <!--titles-->
+
+     <div class="title">
+        <div id="me">
+            <h1>me</h1>
+        </div>
+        <div id="poemLine3">
+            <img src="poemLine3.png" width="500px" height="350px">
+        </div>
+        <div id="poemLine2">
+            <img src="poemLine2.png" width="500px" height="350px">
+        </div>
+
+    </div>
+
+    <!--user image-->
+
+    <div class="images">
+        <div id="userImg">
+            <img src="head.png" width="1200px" height="800px">
+        </div>
+    </div>
+
+
+
+     <!--direct to page2-->
+
+     <a href="page3.html">
+        <button class="button">LOGIN</button>
+    </a>
+
+
+
+</body>
+</html>
