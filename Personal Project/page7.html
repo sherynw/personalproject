@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 7</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--got this code from AI as i couldn't get the p5js javascript to link into the HTML for some reason-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.dom.min.js"></script>
+
+   
+
+
+    <style>
+
+        .background{
+            position: absolute; top: 0px;
+            z-index: -10;
+        }
+        
+        .webcam{
+            display: flex;
+            justify-content: center;
+        }
+
+        #poemLine9{
+            position: absolute; top: 20px; left: 50px;
+        }
+
+        #poemLine10{
+            position: absolute; top: 50px; left: 100px;
+        }
+
+        .backButton{
+            position: absolute; bottom: 80px; 
+        }
+
+
+
+         
+    </style>
+
+
+</head>
+<body>
+
+    <!-- text-->
+    <div class="text">
+        <div id="poemLine9">
+            <img src="poemLine9.png" width="500px" height="350px">
+        </div>
+        <div id="poemLine10">
+            <img src="poemLine10.png" width="500px" height="350px">
+        </div>
+    </div>
+
+     
+
+    <!-- p5js bg -->
+    <div class="webcam">
+        <script src="page7.js"></script>
+    </div>
+    
+    <!--background-->
+    <div class="background">
+        <img src="homepage.png" width="1500px" height="850px">
+    </div>
+      
+
+    <div class="backButton">
+        <a href="page5.html">
+            <img src="backButton.png" alt="Clickable Image" width="600px">
+        </a>
+    </div>
+
+    
+
+
+    
+
+
+
+</body>
+</html>

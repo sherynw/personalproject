@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 5</title>
+
+
+    
+
+    <style>
+
+         /* text positioning */
+
+         #poemLine7 {
+            position: absolute; top: 350px; left: 50px;
+    
+        }
+
+        #poemLine8 {
+    
+            position: absolute; top: 20px; right: 350px;
+   
+        }
+
+      
+
+        /* image positioning */
+
+        #userImg {
+            display: flex;
+            justify-content: center;
+            position: relative; top: 150px;
+        }
+
+        .background {
+            position: absolute; top: 0px; left: 0px;
+            z-index: -10;
+        }
+
+        /* background  */
+
+        #dock {
+            position: absolute; bottom: 100px; left: 180px;
+        }
+
+        #workbookFile {
+            position: absolute; top: 50px; left: 40px;
+        }
+
+        #emptyFile1 {
+            position: absolute; top: 150px; left: 40px;
+        }
+        #emptyFile2 {
+            position: absolute; top: 250px; left: 40px;
+        }
+        #cameraFile {
+            position: absolute; top: 50px; left: 150px;
+        }
+        #assignmentFile {
+            position: absolute; top: 150px; left: 250px;
+        }
+
+        /* file name positioning */
+
+        #workbook{
+            position: absolute; top: 102px; left: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            opacity: 60%;
+        }
+
+        #assignmentFake{
+            position: absolute; top: 202px; left: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            opacity: 60%;
+        }
+
+        #noName{
+            position: absolute; top: 302px; left: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            opacity: 60%;
+        }
+
+        #camera{
+            position: absolute; top: 102px; left: 162px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            opacity: 60%;
+        }
+
+        #assignmentReal{
+            position: absolute; top: 202px; left: 240px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            opacity: 60%;
+        }
+    
+
+
+        /* icon positioning */
+
+        #finderIcon{
+            position: absolute; bottom: 120px; left: 500px;
+            z-index: 10;
+        }
+
+        #safariIcon{
+            position: absolute; bottom: 120px; left: 580px;
+            z-index: 10;
+        }
+
+        #msgIcon{
+            position: absolute; bottom: 120px; left: 660px;
+            z-index: 10;
+        }
+
+        #mailIcon{
+            position: absolute; bottom: 120px; left: 740px;
+            z-index: 10;
+        }
+
+        #calenderIcon{
+            position: absolute; bottom: 120px; left: 820px;
+            z-index: 10;
+        }
+
+        #binIcon{
+            position: absolute; bottom: 120px; left: 900px;
+            z-index: 10;
+        }
+
+        #rectangle{
+            width: 500px;
+            height: 60px;
+            background-color: black;
+            border-radius: 8px;
+            opacity: 30%;
+            position: absolute; bottom: 120px; left: 470px;
+        }
+
+        /* assignment found*/
+
+        #fileBg{
+            position: absolute; top: 100px; left: 400px;
+            z-index: 20;
+        }
+
+        #theOne{
+            position: absolute; top: 180px; left: 580px;
+            z-index: 30;
+        }
+
+        #theOneText{
+            position: absolute; top: 250px; left: 570px;
+            font-size: 8px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 30;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+      <!--titles-->
+
+      <div class="title">
+        <div id="poemLine7">
+            <img src="poemLine7.png" width="500px" height="350px">
+        </div>
+        <div id="poemLine8">
+            <img src="poemLine8.png" width="500px" height="350px">
+        </div>
+
+    </div>
+
+
+   <!-- background image  -->
+
+    <div class="background">
+        <div id="main">
+            <img src="homepage.png" width="1500px" height="850px" >
+        </div>
+        <div id="finderIcon">
+            <img src="finderIcon.png" width="50px" height="50px">
+        </div>
+        <div id="safariIcon">
+            <img src="safariIcon.png" width="50px" height="50px">
+        </div>
+        <div id="msgIcon">
+            <img src="msgIcon.png" width="50px" height="50px">
+        </div>
+        <div id="mailIcon">
+            <img src="mailIcon.webp" width="50px" height="50px">
+        </div>
+        <div id="calenderIcon">
+            <img src="calenderIcon.webp" width="50px" height="50px">
+        </div>
+        <div id="binIcon">
+            <img src="binIcon.png" width="50px" height="50px">
+        </div>
+        <div id="rectangle"></div>
+        
+    </div>
+
+
+     <!--direct to pages through files-->
+
+     <div class="fileClick">
+        <div id="workbookFile">
+            <a href="https://sherynw.github.io/GDES30008-workbook/">
+                <img src="workbookFile.png" alt="Clickable Image" width="70px">
+            </a>
+        </div>
+        <div id="emptyFile1">
+            <a href="page6.html">
+                <img src="emptyFile1.png" alt="Clickable Image" width="70px">
+            </a>
+        </div>
+        <div id="emptyFile2">
+            <a href="page8.html">
+                <img src="emptyFile2.png" alt="Clickable Image" width="70px">
+            </a>
+        </div>
+        <div id="cameraFile">
+            <a href="page7.html">
+                <img src="cameraFile.png" alt="Clickable Image" width="70px">
+            </a>
+        </div>
+        <div id="assignmentFile">
+            <a href="">
+                <img src="assignmentFile.png" alt="Clickable Image" width="70px">
+            </a>
+        </div>
+    
+     </div>
+
+     <!-- text for files and doc -->
+
+     <div class="fileName">
+        <div id="workbook">
+            <h3>workbook</h3>
+        </div>
+        <div id="assignmentFake">
+            <h3>assignment</h3>
+        </div>
+        <div id="noName">
+            <h3>no name</h3>
+        </div>
+        <div id="camera">
+            <h3>camera</h3>
+        </div>
+        <div id="assignmentReal">
+            <h3>or assignment?</h3>
+        </div>
+     </div>
+
+    <!--file assignment found-->
+
+    <div class="assignmentFile">
+        <div id="fileBg">
+            <img src="assignment.png" width="900px" height="500px"> 
+        </div>
+        <div id="theOne">
+            <a href="page10.html">
+                <img src="theOne.png" alt="Clickable Image" width="70px">
+            </a>
+        </div>
+        <div id="theOneText">
+            <h3>assignmentFINAL.pdf</h3>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
